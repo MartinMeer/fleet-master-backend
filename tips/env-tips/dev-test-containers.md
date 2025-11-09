@@ -46,13 +46,14 @@ This guide provides step-by-step instructions for setting up a Jakarta EE backen
 ```
 
 `docker-compose.yml`:
+
 ```yaml
 version: '3.8'
 
 services:
   app:
-    build: 
-      context: .
+    build:
+      context: ..
       dockerfile: Dockerfile
     volumes:
       - ../:/workspace:cached
