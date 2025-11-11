@@ -20,7 +20,7 @@ services:
         POSTGRES_HOSTNAME: postgresdb
 
     volumes:
-      - /home/oleg/IdeaProjects/fleet-master-backend:/workspaces:cached
+      - home/olegmm/javadev/fleet-master-backend:/workspaces:cached
       - maven-cache:/home/vscode/.m2
     deploy:
       resources:
